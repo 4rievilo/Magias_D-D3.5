@@ -1,0 +1,164 @@
+/* Cabeçalho */
+
+.cabecalho {
+    background: url(midia/bg-cabecalho.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 15vh;
+}
+
+.logo-cabecalho {
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 1.5em;
+}
+
+.imagem-cabecalho {
+    height: 15vh;
+}
+
+.index-cabecalho {
+    display: flex;
+}
+
+.index-cabecalho li {
+    margin-right: 20px;
+}
+
+.index-cabecalho a {
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.index-cabecalho a:hover {
+    color: rgba(200, 60, 60, 0.762);
+}
+
+/* Página inicial */
+
+.bg-main {
+    background: url(midia/bg-t2.jpg);
+    background-color: black;
+    background-repeat:repeat-y;
+    background-size: contain;
+    background-position: center;
+    filter: blur(1.5px);
+    height: 70vh;
+}
+
+.busca {
+    position: absolute;
+    top: 20vh;
+    margin-left: 2vw;
+    background: rgba(200, 60, 60, 0.9);
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px 2px rgba(200, 60, 60, 0.6);
+    height: 50vh;
+    width: 30vw;
+}
+
+.caixa-form {
+    height: 50vh;
+}
+
+.form {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    height: 40vh;
+    box-sizing: border-box;
+    
+}
+
+.filtros {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    justify-content: baseline;
+}
+
+.filtros label, .filtros legend {
+    width: 25vw;
+    margin-bottom: 5px;
+}
+
+.filtros input {
+    width: 25vw;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.7em;
+    background: rgb(116, 25, 23);
+}
+
+.input-botao {
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: rgb(116, 25, 23);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 0.7em;
+    border-radius: 5px;
+}
+
+.form-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+.icone-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background: rgba(200, 60, 60, 0.9);
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+
+.icone-form:hover {
+    background: orangered;
+    transform: scale(1.05);
+}
+
+.enviar {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    box-sizing: border-box;
+    width: 60px;
+}
+
+
+
+
+
+
+/* Rodape*/
+.rodape {
+    background: url(midia/bg-cabecalho.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: antiquewhite;
+    font-size: 1em;
+}
+
+.imagem-rodape {
+    height: 10vh;
+}
