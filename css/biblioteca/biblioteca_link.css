@@ -1,0 +1,33 @@
+.biblioteca__link {
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    width: 30%;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid white;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.biblioteca__link:hover {
+    background-color: #191134;
+    border: 2px solid white;
+    color: antiquewhite;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    font-weight: bold;   
+}
+
+.biblioteca__link:active {
+    background-color: #773476;
+    border: 2px solid black;
+    color: black;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: 0s;
+}

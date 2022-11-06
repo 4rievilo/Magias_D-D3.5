@@ -1,0 +1,9 @@
+.paginas {
+    background: url(../Img/pergaminho/tumblr_o4kfvlFxzp1v4z2vro1_540.jpg)
+        no-repeat center / cover;
+    height: 102vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

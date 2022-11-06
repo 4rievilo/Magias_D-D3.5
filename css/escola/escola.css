@@ -1,15 +1,12 @@
 .escola {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     width: 20%;
     height: 90vh;
     margin: 2%;
     border: 1px solid white;
-    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 7px 1px rgba(255, 255, 255, 0.5);
 }
 
-.escola:hover {
-    border: 3px solid #E68FFC;
-    box-shadow: 2px 2px 2px 1px #773476;
-}

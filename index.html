@@ -20,6 +20,7 @@
     <link href="./css/banner/banner.css" rel="stylesheet"/>
     <link href="./css/banner/banner__imagem.css" rel="stylesheet"/>
     <link href="./css/banner/banner__titulo.css" rel="stylesheet"/>
+    <link href="./css/main.css" rel="stylesheet"/>
     <link href="./css/sobre/sobre.css" rel="stylesheet"/>
     <link href="./css/sobre/sobre__descricao.css" rel="stylesheet"/>
     <link href="./css/sobre/sobre__titulo.css" rel="stylesheet"/>
@@ -29,7 +30,15 @@
     <link href="./css/escola/escola__imagem.css" rel="stylesheet"/>
     <link href="./css/escola/escola__descricao.css" rel="stylesheet"/>
     <link href="./css/escola/escola__titulo.css" rel="stylesheet"/>
-    <link href="./css/escola/escola__link.css" rel="stylesheet"/>
+    <link href="./css/paginas.css" rel="stylesheet"/>
+    <link href="./css/biblioteca/biblioteca.css" rel="stylesheet"/>
+    <link href="./css/biblioteca/biblioteca__botao.css" rel="stylesheet"/>
+    <link href="./css/biblioteca/biblioteca__descricao.css" rel="stylesheet"/>
+    <link href="./css/biblioteca/biblioteca__titulo.css" rel="stylesheet"/>
+    <link href="./css/biblioteca/biblioteca_link.css" rel="stylesheet"/>
+    <link href="./css/rodape/rodape.css" rel="stylesheet"/>
+    <link href="./css/rodape/rodape__imagem.css" rel="stylesheet"/>
+    <link href="./css/rodape/rodape__link.css" rel="stylesheet"/>
 </head>
 <body>
     <header class="cabecalho">
@@ -39,8 +48,10 @@
         </div>    
         <nav class="menu">
             <ul class="menu__lista">
-               <li class="menu__item"><a class="menu__link" href="index.html">Magias</a></li>
-               <li class="menu__item"><a class="menu__link" href="grimorio.html">Grimório</a></li> 
+                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="biblioteca.html">Biblioteca</a></li>
+                <li class="menu__item"><a class="menu__link" href="grimorio.html">Grimório</a></li> 
+                <li class="menu__item"><a class="menu__link" href="atrio.html">Átrio</a></li>
             </ul>
         </nav>
     </header>
@@ -58,88 +69,94 @@
         </section>
         <section class="escolas">
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Abjuração" class="escola__imagem" src="./Img/escolas/abjuração.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Abjuração</h3>
-                        <p class="escola__descricao">Magias de proteção, bloqueio ou banimento. Um especialista
-                            em Abjuração é chamado de abjurador</p>
-                    </div>
-                </a>
+                <img alt="Escola de Abjuração" class="escola__imagem" src="./Img/escolas/abjuração.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Abjuração</h3>
+                    <p class="escola__descricao">Magias de proteção, bloqueio ou banimento. Um especialista
+                        em Abjuração é chamado de abjurador</p>
+                </div>
+            </div>
+            <div class="escola">   
+                <img alt="Escola de Adivinhação" class="escola__imagem" src="./Img/escolas/adivinhação.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Adivinhação</h3>
+                    <p class="escola__descricao">Magias que revelam informações. Um especialista em
+                        Adivinhação é chamado de adivinho</p>
+                </div> 
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Adivinhação" class="escola__imagem" src="./Img/escolas/adivinhação.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Adivinhação</h3>
-                        <p class="escola__descricao">Magias que revelam informações. Um especialista em
-                            Adivinhação é chamado de adivinho</p>
-                    </div>
-                </a>
+                <img alt="Escola de Conjuração" class="escola__imagem" src="./Img/escolas/conjuração.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Conjuração</h3>
+                    <p class="escola__descricao">Magias que invocam criaturas ou materiais. Um especialista
+                        em Conjuração é chamado de invocador</p>
+                </div>
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Conjuração" class="escola__imagem" src="./Img/escolas/conjuração.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Conjuração</h3>
-                        <p class="escola__descricao">Magias que invocam criaturas ou materiais. Um especialista
-                            em Conjuração é chamado de invocador</p>
-                    </div>
-                </a>
+                <img alt="Escola de Encantamento" class="escola__imagem" src="./Img/escolas/encantamento.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Encantamento</h3>
+                    <p class="escola__descricao">Magias que fornecem alguma qualidade ao alvo ou
+                        concedem poder sobre outras criaturas para o mago. Um especialista em
+                        Encantamento é chamado de encantador</p>
+                </div>
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Encantamento" class="escola__imagem" src="./Img/escolas/encantamento.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Encantamento</h3>
-                        <p class="escola__descricao">Magias que fornecem alguma qualidade ao alvo ou
-                            concedem poder sobre outras criaturas para o mago. Um especialista em
-                            Encantamento é chamado de encantador</p>
-                    </div>
-                </a>
+                <img alt="Escola de Evocação" class="escola__imagem" src="./Img/escolas/evocação.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Evocação</h3>
+                    <p class="escola__descricao">Magias que manipulam energia ou criam materiais do nada.
+                        Um especialista em Evocação é chamado de evocador</p>
+                </div>
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Evocação" class="escola__imagem" src="./Img/escolas/evocação.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Evocação</h3>
-                        <p class="escola__descricao">Magias que manipulam energia ou criam materiais do nada.
-                            Um especialista em Evocação é chamado de evocador</p>
-                    </div>
-                </a>
+                <img alt="Escola de Ilusão" class="escola__imagem" src="./Img/escolas/ilusão.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Ilusão</h3>
+                    <p class="escola__descricao">Magias que alteram a percepção ou criam imagens falsas. Um
+                        especialista em Ilusão é chamado de ilusionista</p>
+                </div>
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Ilusão" class="escola__imagem" src="./Img/escolas/ilusão.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Ilusão</h3>
-                        <p class="escola__descricao">Magias que alteram a percepção ou criam imagens falsas. Um
-                            especialista em Ilusão é chamado de ilusionista</p>
-                    </div>
-                </a>
+                <img alt="Escola de Necromancia" class="escola__imagem" src="./Img/escolas/necromancia.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Necromancia</h3>
+                    <p class="escola__descricao">Magias que manipulam, criam ou eliminam a vida e a força
+                        vital. Um especialista em Necromancia é chamado de necromante</p>
+                </div>
             </div>
             <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Necromancia" class="escola__imagem" src="./Img/escolas/necromancia.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Necromancia</h3>
-                        <p class="escola__descricao">Magias que manipulam, criam ou eliminam a vida e a força
-                            vital. Um especialista em Necromancia é chamado de necromante</p>
-                    </div>
-                </a>
+                <img alt="Escola de Transmutação" class="escola__imagem" src="./Img/escolas/Transmutação.png"/>
+                <div class="escola__conteudo">
+                    <h3 class="escola__titulo">Escola de Transmutação</h3>
+                    <p class="escola__descricao">Magias que transformam fisicamente o alvo ou mudam
+                        suas propriedades de forma sutil. Um especialista em Transmutação é chamado
+                        de transmutador</p>
+                </div>
             </div>
-            <div class="escola">
-                <a class="escola__link" href="index.html">
-                    <img alt="Escola de Transmutação" class="escola__imagem" src="./Img/escolas/Transmutação.png"/>
-                    <div class="escola__conteudo">
-                        <h3 class="escola__titulo">Escola de Transmutação</h3>
-                        <p class="escola__descricao">Magias que transformam fisicamente o alvo ou mudam
-                            suas propriedades de forma sutil. Um especialista em Transmutação é chamado
-                            de transmutador</p>
-                    </div>
-                </a>
+        </section>
+        <section class="paginas">
+            <div class="biblioteca">
+                <h4 class="biblioteca__titulo">Biblioteca</h4>
+                <p class="biblioteca__descricao">Acervo de pergaminhos de magia para cópia e consulta</p>
+                <a class="biblioteca__link" href="biblioteca.html">Ir à Biblioteca</a>
+            </div>
+            <div class="biblioteca">
+                <h4 class="biblioteca__titulo">Grimório</h4>
+                <p class="biblioteca__descricao">Espaço pessoal para atualizar seu livro de magias</p>
+                <a class="biblioteca__link" href="grimorio.html">Consultar Grimório</a>
+            </div>
+            <div class="biblioteca">
+                <h4 class="biblioteca__titulo">Átrio</h4>
+                <p class="biblioteca__descricao">Sala acomodações para as 
+                    reúniões dos membros da ordem</p>
+                <p class="biblioteca__descricao">Conheça mais sobre o arquimago</p>
+                <a class="biblioteca__link" href="atrio.html">Ir ao Átrio</a>
             </div>
         </section>
     </main>
+    <footer class="rodape">
+        <h5><a class="rodape__link" href="index.html"><img class="rodape__imagem" alt="Magias D&D3.5" src="./Img/IMAGEM_NEGO_V2.png"></a></h5>
+    </footer>
 </body>
 </html>
