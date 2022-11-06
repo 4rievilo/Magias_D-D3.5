@@ -4,102 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Lista de Magias - D&D3.5</title>
-    <meta name="description" content="Lista de Magias e Grimório para D&D3.5">
-    <meta property="og:title" content="Lista de Magias - D&D3.5">
-    <meta property="og:site_name" content="Website do Dogão">
-    <meta property="og:description"
-        content="Lista de Magias e Grimório para D&D3.5">
-    <meta property="og:url" content="a">
-    <meta property="og:image"
-        content="midia/logo-busca.jpg">
-    <meta property="og:image:type" content="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <title>Magias D&D3.5</title>
+    <link href="./css/reset.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho__imagem.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho__link.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho__logo.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho__titulo.css" rel="stylesheet"/>
+    <link href="./css/menu/menu.css" rel="stylesheet"/>
+    <link href="./css/menu/menu__item.css" rel="stylesheet"/>
+    <link href="./css/menu/menu__link.css" rel="stylesheet"/>
+    <link href="./css/menu/menu__lista.css" rel="stylesheet"/>
+    <link href="./css/banner/banner.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__imagem.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__titulo.css" rel="stylesheet"/>
+    <link href="./css/sobre/sobre.css" rel="stylesheet"/>
+    <link href="./css/sobre/sobre__descricao.css" rel="stylesheet"/>
+    <link href="./css/sobre/sobre__titulo.css" rel="stylesheet"/>
+    <link href="./css/escolas.css" rel="stylesheet"/>
+    <link href="./css/escola/escola.css" rel="stylesheet"/>
+    <link href="./css/escola/escola__conteudo.css" rel="stylesheet"/>
+    <link href="./css/escola/escola__imagem.css" rel="stylesheet"/>
+    <link href="./css/escola/escola__descricao.css" rel="stylesheet"/>
+    <link href="./css/escola/escola__titulo.css" rel="stylesheet"/>
+    <link href="./css/escola/escola__link.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <section class="cabecalho">
-            <div class="logo-cabecalho">
-                <h1><a href="index.html"><img src="midia/logo-cabecalho.jpg" alt="Logo da Lista de Magias -D&D3.5" class="imagem-cabecalho"></a></h1>
-                <h1>D&D3.5 Magias</h1>
-            </div>
-            <nav>
-                <ul class="index-cabecalho">
-                    <li><a href="index.html">Magias</a></li>
-                    <li><a href="grimorio.html">Grimório</a></li>
-                </ul>
-            </nav>
-        </section>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <h1><a class="cabecalho__link" href="index.html"><img class="cabecalho__imagem" alt="Magias D&D3.5" src="./Img/IMAGEM_NEGO_V2.png"></a></h1>
+            <h1 class="cabecalho__titulo">Magias D&D3.5</h1>
+        </div>    
+        <nav class="menu">
+            <ul class="menu__lista">
+               <li class="menu__item"><a class="menu__link" href="index.html">Magias</a></li>
+               <li class="menu__item"><a class="menu__link" href="grimorio.html">Grimório</a></li> 
+            </ul>
+        </nav>
     </header>
-    <main>
-        <div class="bg-main"></div>
-        <section class="busca">
-            <form class="caixa-form">
-                <div class="form">
-                    <div class="filtros">
-                        <label for="nomeDaMagia">Nome da Magia:</label>
-                        <input type="text" id="nomeDaMagia">
+    <main class="main">
+        <section class="banner">
+            <div class="banner__imagem"></div>
+            <h2 class="banner__titulo">A Magia é a Ciência e a Arte de causar mudanças de acordo com a Vontade</h2>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Escolas de Magia</h2>
+            <p class="sobre__descricao">As magias são divididas em oito grupos 
+                distintos, chamados de escolas de magia; cada escola é definida por 
+                um tema comum. Se desejar, um mago pode se especializar em uma 
+                escola de magia</p>
+        </section>
+        <section class="escolas">
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Abjuração" class="escola__imagem" src="./Img/escolas/abjuração.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Abjuração</h3>
+                        <p class="escola__descricao">Magias de proteção, bloqueio ou banimento. Um especialista
+                            em Abjuração é chamado de abjurador</p>
                     </div>
-
-                    <fieldset class="filtros">
-                        <legend>Classe:</legend>
-                        <select class="input-botao">
-                            <option class="input-botao">Bardo</option>
-                            <option class="input-botao">Clérigo</option>
-                            <option class="input-botao">Druida</option>
-                            <option class="input-botao">Mago</option>
-                            <option class="input-botao">Paladino</option>
-                            <option class="input-botao">Ranger</option>
-                        </select>
-                    </fieldset>
-
-                    <fieldset class="filtros">
-                        <legend>Nível:</legend>
-                        <select class="input-botao">
-                            <option class="input-botao">0</option>
-                            <option class="input-botao">1</option>
-                            <option class="input-botao">2</option>
-                            <option class="input-botao">3</option>
-                            <option class="input-botao">4</option>
-                            <option class="input-botao">5</option>
-                            <option class="input-botao">6</option>
-                            <option class="input-botao">7</option>
-                            <option class="input-botao">8</option>
-                            <option class="input-botao">9</option>
-                        </select>
-                    </fieldset>
-
-                    <fieldset class="filtros">
-                        <legend>Escola:</legend>
-                        <select class="input-botao">
-                            <option class="input-botao">Abjuração</option>
-                            <option class="input-botao">Adivinhação</option>
-                            <option class="input-botao">Conjuração</option>
-                            <option class="input-botao">Encantamento</option>
-                            <option class="input-botao">Evocação</option>
-                            <option class="input-botao">Ilusão</option>
-                            <option class="input-botao">Necromancia</option>
-                            <option class="input-botao">Transmutação</option>
-                            <option class="input-botao">Universal</option>
-                        </select>
-                    </fieldset>
-                </div>
-                <div class="form-botao">
-                    <button type="submit" aria-label="Buscar magia" class="icone-form">
-                        <img src="midia/Botao-enviar2.png" class="enviar">
-                    </button>
-                </div>
-            </form>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Adivinhação" class="escola__imagem" src="./Img/escolas/adivinhação.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Adivinhação</h3>
+                        <p class="escola__descricao">Magias que revelam informações. Um especialista em
+                            Adivinhação é chamado de adivinho</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Conjuração" class="escola__imagem" src="./Img/escolas/conjuração.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Conjuração</h3>
+                        <p class="escola__descricao">Magias que invocam criaturas ou materiais. Um especialista
+                            em Conjuração é chamado de invocador</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Encantamento" class="escola__imagem" src="./Img/escolas/encantamento.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Encantamento</h3>
+                        <p class="escola__descricao">Magias que fornecem alguma qualidade ao alvo ou
+                            concedem poder sobre outras criaturas para o mago. Um especialista em
+                            Encantamento é chamado de encantador</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Evocação" class="escola__imagem" src="./Img/escolas/evocação.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Evocação</h3>
+                        <p class="escola__descricao">Magias que manipulam energia ou criam materiais do nada.
+                            Um especialista em Evocação é chamado de evocador</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Ilusão" class="escola__imagem" src="./Img/escolas/ilusão.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Ilusão</h3>
+                        <p class="escola__descricao">Magias que alteram a percepção ou criam imagens falsas. Um
+                            especialista em Ilusão é chamado de ilusionista</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Necromancia" class="escola__imagem" src="./Img/escolas/necromancia.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Necromancia</h3>
+                        <p class="escola__descricao">Magias que manipulam, criam ou eliminam a vida e a força
+                            vital. Um especialista em Necromancia é chamado de necromante</p>
+                    </div>
+                </a>
+            </div>
+            <div class="escola">
+                <a class="escola__link" href="index.html">
+                    <img alt="Escola de Transmutação" class="escola__imagem" src="./Img/escolas/Transmutação.png"/>
+                    <div class="escola__conteudo">
+                        <h3 class="escola__titulo">Escola de Transmutação</h3>
+                        <p class="escola__descricao">Magias que transformam fisicamente o alvo ou mudam
+                            suas propriedades de forma sutil. Um especialista em Transmutação é chamado
+                            de transmutador</p>
+                    </div>
+                </a>
+            </div>
         </section>
     </main>
-
-    <footer>
-        <section class="rodape">
-            <h3><img src="midia/logo-cabecalho.jpg" alt="Logo da Lista de Magias -D&D3.5" class="imagem-rodape"></a></h3>
-            <h3>D&D3.5 Magias</h3>
-        </section>
-    </footer>
-
 </body>
 </html>

@@ -1,0 +1,12 @@
+.banner__titulo {
+    color: white;
+    font-family: Caveat, cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    margin-top: -50%;
+}

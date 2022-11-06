@@ -1,0 +1,9 @@
+.escola__descricao {
+    font-family: 'Cinzel', serif;
+    color: antiquewhite;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: justify;
+    height: 45%;
+}

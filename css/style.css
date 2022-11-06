@@ -1,12 +1,12 @@
 /* Cabeçalho */
 
 .cabecalho {
-    background: url(midia/bg-cabecalho.png);
+    background: url(Img/bg-cabecalho.png);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    height: 15vh;
+    height: 15%;
 }
 
 .logo-cabecalho {
@@ -42,7 +42,7 @@
 /* Página inicial */
 
 .bg-main {
-    background: url(midia/bg-t2.jpg);
+    background: url(Img/bg-t2.jpg);
     background-color: black;
     background-repeat:repeat-y;
     background-size: contain;
@@ -59,7 +59,7 @@
     border-radius: 20px;
     box-shadow: 5px 5px 2px 2px rgba(200, 60, 60, 0.6);
     height: 50vh;
-    width: 30vw;
+    width: 40vw;
 }
 
 .caixa-form {
@@ -72,11 +72,25 @@
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: space-around;
     align-items: flex-start;
-    height: 40vh;
+    height: 50vh;
     box-sizing: border-box;
     
+}
+
+.form-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vw;
+    box-sizing: border-box;
+    padding: 1vw;
+}
+
+.form-botao legend {
+    margin: 1vw 0;
 }
 
 .filtros {
@@ -111,13 +125,7 @@
     width: 10vw;
 }
 
-.form-botao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 10vh;
-}
+
 
 .icone-form {
     display: flex;
@@ -150,7 +158,7 @@
 
 /* Rodape*/
 .rodape {
-    background: url(midia/bg-cabecalho.png);
+    background: url(Img/bg-cabecalho.png);
     display: flex;
     flex-direction: column;
     justify-content: center;

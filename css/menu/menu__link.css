@@ -1,0 +1,14 @@
+.menu__link {
+    color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu__link:hover {
+    color: #773476;
+}
